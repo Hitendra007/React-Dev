@@ -38,8 +38,7 @@ const router = createBrowserRouter(
         <Route path="contactus" element={<Contactus/>}/>
         <Route path="contactus" element={<Contactus/>}/>
         <Route path="user/:userId" element={<User/>}/>
-        <Route 
-        path="github" element={<Github/>}/>
+        <Route path="github" element={<Github/>}/>
       </Route>    
   )
 )
